@@ -19,10 +19,10 @@ jobs:
 
       - name: Install and build
         uses: actions/setup-node@v3
-        with: node-version ${{ matrix.node-version }}
-      
-        run: npm i
-        run: npm test
-        run: npm run build
+        with: 
+          node-version ${{ matrix.node-version }}
+      - run: npm i 
+      - run: npm test 
+      - run: npm run build
       
     
