@@ -28,6 +28,6 @@ jobs:
       #  cache: 'npm'
       #  cache-dependency-path: todos-frontend/package-lock.json
     - run: npm install  
-    - run: npm ci
+     # run: npm ci
     - run: npm run build --if-present
     - run: npm test
