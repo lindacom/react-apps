@@ -33,7 +33,7 @@ function App() {
    <NewTodoForm onClickCreate = {todoText} />
 
    <TodoList
-   todos={}
+   todos = {}
    onCompleteTodo = {}
    onDeleteTodo = {} />
    </div>
