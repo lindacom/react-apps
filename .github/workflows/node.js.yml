@@ -21,7 +21,18 @@ jobs:
         uses: actions/setup-node@v3
         with: 
           node-version: ${{ matrix.node-version }}
-      - run: npm i 
-     # - run: npm run build
+      - name: npm install
+        run: npm ci 
+        working-directory: ./todos-frontend
+      - name: build app
+        run: npm run build
+        working-directory: ./todos-frontend
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: my-deployment # name of branch to build to
+          folder: todos-frontend/build # where build folder will be created
+        
+     
       
     

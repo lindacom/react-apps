@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 import { NewTodoForm } from './NewTodoForm';
 import { TodoList } from './TodoList';
@@ -35,3 +36,6 @@ export function App() {
     </div>
   );
 }
+=======
+
+>>>>>>> main
