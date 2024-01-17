@@ -31,7 +31,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: my-deployment # name of branch to build to
-          folder: react-apps/build # where build folder will be created
+          folder: todos-frontend/build # where build folder will be created
         
      
       
