@@ -15,13 +15,13 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@1
+        uses: actions/checkout@v3
 
       - name: Install and build
         run: npm install && npm run build
       
       - name: Deploy
-        uses: lindacom/github-pages-deploy-action@4.1.1
+        uses: lindacom/react-apps@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: todos-front-end # The folder the action should deploy.
