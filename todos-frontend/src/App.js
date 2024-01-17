@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
    <h1>My todos</h1>
-   <NewTodoForm onClickCreate = {} />
+   <NewTodoForm onClickCreate = {todoText} />
 
    <TodoList
    todos={}
