@@ -21,7 +21,12 @@ jobs:
         uses: actions/setup-node@v3
         with: 
           node-version: ${{ matrix.node-version }}
-      - run: npm i 
+      - name: npm install
+        run: npm ci 
+        working-directory: ./todos-frontend
+      - name: build app
+        run: npm run build
+        working-directory: ./todos-frontend
      # - run: npm run build
       
     
