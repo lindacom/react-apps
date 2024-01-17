@@ -11,8 +11,8 @@ function App() {
     const loadTodos = async() => {
       // ...
           }
-     /* eslint-disable */
-    const loadTodos(); } {});
+  
+    loadTodos(); } {});
 
     const createTodo = todoText => {
       // ...
