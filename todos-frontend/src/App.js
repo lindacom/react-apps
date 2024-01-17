@@ -12,7 +12,7 @@ function App() {
       // ...
           }
   
-    loadTodos(); } {});
+    loadTodos(); }, {});
 
     const createTodo = todoText => {
       // ...
