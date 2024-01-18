@@ -28,6 +28,8 @@ Developments
 
 Deployments
 ===========
+Commits to main branch will trigger the ci/cd pipeline (workflow).
+
 To trigger the workflow:
 1. Git pull main and master branch to get the latest updates
 2. Add project files and push to master branch
