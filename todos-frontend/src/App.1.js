@@ -7,7 +7,7 @@ export function App() {
   const [todos, setTodos] = useState({});
 
   useEffect(() => {
-    let loadTodos; ();
+    const loadTodos; ();
   }, {});
 
   const createTodo = todoText => {
