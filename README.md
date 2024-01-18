@@ -21,7 +21,10 @@ The homepage is specified in the package.json file
 Developments
 ==============
 1. Clone the repo
-2. Add project files and push to master branch
+2. Add project files
+3. To run the project locally cd to react-apps\todos-back-end and run node src/server.js
+4. Open project in the browser at localhost:8080/todos
+5. push files to master branch
 
 Deployments
 ===========
