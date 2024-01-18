@@ -5,6 +5,9 @@ About this project
 
 Dependencies: NPM, Express, REACT-DOM
 
+frontend - React
+Backend - node and express server
+
 This project has a CI/CD pipeline using Github actions to deploy to Github pages.
 
 Master branch - used for development code
